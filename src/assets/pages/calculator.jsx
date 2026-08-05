@@ -35,6 +35,26 @@ function Calculators() {
             </Link>
           </div>
         </div>
+
+        <div className="col-md-4">
+          <div className="card p-3 shadow h-100">
+            <h4>Home Loan Calculator</h4>
+            <p className="text-muted">Estimate your home loan EMI and total payment.</p>
+            <Link className="btn btn-success mt-auto" to="/home-loan">
+              Open
+            </Link>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card p-3 shadow h-100">
+            <h4>Mutual Fund Calculator</h4>
+            <p className="text-muted">Estimate your lumpsum mutual fund returns.</p>
+            <Link className="btn btn-success mt-auto" to="/mutual-fund">
+              Open
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

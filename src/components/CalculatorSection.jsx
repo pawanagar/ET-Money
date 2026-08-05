@@ -50,6 +50,28 @@ function CalculatorSection() {
               </div>
             </div>
           </div>
+          <div className="col-md-4">
+            <div className="card calculator-card h-100 shadow-sm border-0">
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title">Home Loan Calculator</h5>
+                <p className="card-text text-muted">Estimate your home loan EMI and payment schedule.</p>
+                <Link className="mt-auto btn btn-success" to="/home-loan">
+                  Estimate Home Loan
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card calculator-card h-100 shadow-sm border-0">
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title">Mutual fund calculator</h5>
+                <p className="card-text text-muted">Calculate your mutual fund investment returns over time.</p>
+                <Link className="mt-auto btn btn-success" to="/mutual-fund">
+                  Check Returns
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

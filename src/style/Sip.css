@@ -1,0 +1,141 @@
+/* Background */
+.sip-page {
+  background: #f5f7fb;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* Card */
+.card {
+  border-radius: 15px;
+}
+
+/* Headings */
+.card h4 {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  color: #444;
+}
+
+/* Slider */
+.form-range {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+/* Green Slider */
+
+.form-range::-webkit-slider-thumb {
+  background: #00b386;
+}
+
+.form-range::-moz-range-thumb {
+  background: #00b386;
+}
+
+/* Summary Cards */
+
+.summary-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.summary-box h6 {
+  color: #666;
+  font-size: 15px;
+}
+
+.summary-box h3 {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #00b386;
+}
+
+/* Chart Placeholder */
+
+.chart-placeholder {
+  min-height: 320px;
+  padding: 20px;
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(245,247,251,0.98));
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+}
+
+.chart-modern svg {
+  height: 260px;
+}
+
+.chart-grid line {
+  stroke-dasharray: 4 6;
+}
+
+.chart-placeholder h5 {
+  color: #1f4d3c;
+}
+
+.chart-placeholder .badge {
+  background: rgba(0, 179, 134, 0.12);
+  color: #0f5132;
+}
+
+/* Button */
+
+.btn-success {
+  background: #00b386;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #009973;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+
+  .summary-box {
+    margin-bottom: 15px;
+  }
+
+  .chart-placeholder {
+    height: 220px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .summary-box h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .card {
+    padding: 15px !important;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .summary-box {
+    text-align: center;
+  }
+
+}

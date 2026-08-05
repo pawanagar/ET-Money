@@ -6,6 +6,8 @@ import Calculators from './assets/pages/calculator'
 import EMI from './assets/pages/Emi'
 import SIP from './assets/pages/Sip'
 import FD from './assets/pages/Fd'
+import Mutual from './assets/pages/Mutual'
+import HomeLoan from './assets/pages/HomeLoan'
 import Footer from './components/Footer'
 
 function Placeholder({ title }) {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/emi" element={<EMI />} />
         <Route path="/sip" element={<SIP />} />
         <Route path="/fd" element={<FD />} />
+        <Route path="/home-loan" element={<HomeLoan />} />
+        <Route path="/mutual-fund" element={<Mutual />} />
         <Route path="/investments" element={<Placeholder title="Investments" />} />
         <Route path="/insurance" element={<Placeholder title="Insurance" />} />
         <Route path="/learn" element={<Placeholder title="Learn" />} />

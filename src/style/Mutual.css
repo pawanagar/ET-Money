@@ -1,0 +1,169 @@
+.mf-page{
+    background:#f5f7fb;
+    min-height:100vh;
+    padding-bottom:50px;
+}
+/* Card */
+.card {
+  border-radius: 15px;
+}
+
+/* Headings */
+.card h4 {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  color: #444;
+}
+
+/* Slider */
+.form-range {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+/* Green Slider */
+
+.form-range::-webkit-slider-thumb {
+  background: #00b386;
+}
+
+.form-range::-moz-range-thumb {
+  background: #00b386;
+}
+
+/* Summary Cards */
+
+.summary-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.summary-box h6 {
+  color: #666;
+  font-size: 15px;
+}
+
+.summary-box h3 {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #00b386;
+}
+
+/* Chart Placeholder */
+
+.chart-placeholder {
+  min-height: 340px;
+  padding: 22px;
+  border: none;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+.chart-placeholder h5 {
+  color: #495057;
+}
+
+.chart-modern svg {
+  height: 280px;
+}
+
+.chart-grid line {
+  stroke: #e9ecef;
+  stroke-width: 1;
+  stroke-dasharray: 4 6;
+}
+
+.chart-axis-label {
+  fill: #6c757d;
+  font-size: 0.8rem;
+}
+
+.chart-legend {
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.legend-dot.balance {
+  background: #004d40;
+}
+
+.legend-dot.paid {
+  background: #00b386;
+}
+
+.chart-modern text {
+  font-family: inherit;
+}
+
+/* Button */
+
+.btn-success {
+  background: #00b386;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #009973;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+
+  .summary-box {
+    margin-bottom: 15px;
+  }
+
+  .chart-placeholder {
+    height: 220px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .summary-box h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .card {
+    padding: 15px !important;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .summary-box {
+    text-align: center;
+  }
+
+} 
